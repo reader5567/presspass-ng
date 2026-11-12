@@ -1,0 +1,12 @@
+{
+  "name": "presspass-ng",
+  "version": "0.2.2",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "description": "Newspapers.com to Wikipedia {{cite news}} userscript",
+  "scripts": {
+    "test": "node --test test/core.test.js",
+    "smoke": "node test/browser/article.smoke.js && node test/browser/viewer.smoke.js"
+  },
+  "devDependencies": { "jsdom": "^24.0.0" }
+}
